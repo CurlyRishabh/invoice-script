@@ -1,0 +1,54 @@
+*{
+    /* border: 1px solid red; */
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.25;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.invoice {
+    margin: 4rem;
+    border: 2px solid black;
+    padding: .5rem;
+}
+
+.swish-logo {
+    height: 100px;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+table th{
+    background-color: lightgray;
+    padding: .4rem;
+}
+
+table td{
+    padding: .4rem;
+}
+
+
+
+table tr th:nth-child(1),
+table tr td:nth-child(1),
+table tr th:nth-child(5),
+table tr td:nth-child(5) {
+    text-align: center;
+}
+
+table tr th:nth-child(4),
+table tr td:nth-child(4){
+    text-align: right;
+}
+
+table tr th:last-child,
+table tr td:last-child {
+    text-align: right;
+}
+
